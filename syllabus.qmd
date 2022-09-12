@@ -49,7 +49,7 @@ derivatives, integration, infinite series) to assess the probability of an event
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
-## Course Tentative Plan (will be updated)
+## Course Tentative Plan (last year's schedule, will be updated soon)
 
 We will closely follow the weekly schedule given below.
 However, weekly class schedules are subject to change depending on the progress we make as a class.
