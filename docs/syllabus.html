@@ -1,0 +1,667 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.0.37">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>MAT221E -</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+span.underline{text-decoration: underline;}
+div.column{display: inline-block; vertical-align: top; width: 50%;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+</style>
+
+
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./labs/lab_01.html" rel="next">
+<link href="./instructor.html" rel="prev">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script id="quarto-search-options" type="application/json">{
+  "location": "sidebar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "start",
+  "type": "textbox",
+  "limit": 20,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit"
+  }
+}</script>
+
+
+<link rel="stylesheet" href="styles.css">
+</head>
+
+<body class="nav-sidebar floating">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top">
+  <nav class="quarto-secondary-nav" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar" aria-controls="quarto-sidebar" aria-expanded="false" aria-label="Toggle sidebar navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+    <div class="container-fluid d-flex justify-content-between">
+      <h1 class="quarto-secondary-nav-title">(Untitled)</h1>
+      <button type="button" class="quarto-btn-toggle btn" aria-label="Show secondary navigation">
+        <i class="bi bi-chevron-right"></i>
+      </button>
+    </div>
+  </nav>
+</header>
+<!-- content -->
+<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article">
+<!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse sidebar-navigation floating overflow-auto">
+    <div class="pt-lg-2 mt-2 text-center sidebar-header">
+      <a href="./" class="sidebar-logo-link">
+      <img src="./images/logo.png" alt="" class="sidebar-logo py-0 d-lg-inline d-none">
+      </a>
+      <div class="sidebar-tools-main">
+    <a href="https://github.com/gulinan/mat221e-fall22" title="" class="sidebar-tool px-1"><i class="bi bi-github"></i></a>
+    <a href="https://ninova.itu.edu.tr/Ders/25432/Sinif/81565" title="" class="sidebar-tool px-1"><i class="bi bi-code-square"></i></a>
+</div>
+      </div>
+      <div class="mt-2 flex-shrink-0 align-items-center">
+        <div class="sidebar-search">
+        <div id="quarto-search" class="" title="Search"></div>
+        </div>
+      </div>
+    <div class="sidebar-menu-container"> 
+    <ul class="list-unstyled mt-1">
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true"><strong>Course Information</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-1" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-1" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./instructor.html" class="sidebar-item-text sidebar-link">Instructor Information</a>
+  </div>
+</li>
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./syllabus.html" class="sidebar-item-text sidebar-link active">Course Syllabus</a>
+  </div>
+</li>
+      </ul>
+  </li>
+        <li class="sidebar-item sidebar-item-section">
+      <div class="sidebar-item-container"> 
+            <a class="sidebar-item-text sidebar-link text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true"><strong>Lab Materials</strong></a>
+          <a class="sidebar-item-toggle text-start" data-bs-toggle="collapse" data-bs-target="#quarto-sidebar-section-2" aria-expanded="true">
+            <i class="bi bi-chevron-right ms-2"></i>
+          </a> 
+      </div>
+      <ul id="quarto-sidebar-section-2" class="collapse list-unstyled sidebar-section depth1 show">  
+          <li class="sidebar-item">
+  <div class="sidebar-item-container"> 
+  <a href="./labs/lab_01.html" class="sidebar-item-text sidebar-link">Lab 01</a>
+  </div>
+</li>
+      </ul>
+  </li>
+    </ul>
+    </div>
+</nav>
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#course-syllabus" id="toc-course-syllabus" class="nav-link active" data-scroll-target="#course-syllabus">Course Syllabus</a>
+  <ul class="collapse">
+  <li><a href="#course-type" id="toc-course-type" class="nav-link" data-scroll-target="#course-type">Course Type</a></li>
+  <li><a href="#course-credits" id="toc-course-credits" class="nav-link" data-scroll-target="#course-credits">Course Credits</a></li>
+  <li><a href="#course-prerequisites" id="toc-course-prerequisites" class="nav-link" data-scroll-target="#course-prerequisites">Course Prerequisites</a></li>
+  <li><a href="#course-description" id="toc-course-description" class="nav-link" data-scroll-target="#course-description">Course Description</a></li>
+  <li><a href="#class-schedule" id="toc-class-schedule" class="nav-link" data-scroll-target="#class-schedule">Class Schedule</a></li>
+  <li><a href="#classroom" id="toc-classroom" class="nav-link" data-scroll-target="#classroom">Classroom:</a></li>
+  <li><a href="#course-objectives" id="toc-course-objectives" class="nav-link" data-scroll-target="#course-objectives">Course Objectives:</a></li>
+  <li><a href="#course-tentative-plan-will-be-updated" id="toc-course-tentative-plan-will-be-updated" class="nav-link" data-scroll-target="#course-tentative-plan-will-be-updated">Course Tentative Plan (will be updated)</a></li>
+  <li><a href="#student-learning-outcomes" id="toc-student-learning-outcomes" class="nav-link" data-scroll-target="#student-learning-outcomes">Student Learning Outcomes</a></li>
+  <li><a href="#textbook" id="toc-textbook" class="nav-link" data-scroll-target="#textbook">Textbook</a></li>
+  <li><a href="#course-workload" id="toc-course-workload" class="nav-link" data-scroll-target="#course-workload">Course Workload</a></li>
+  <li><a href="#recommended-bibliography-will-be-updated" id="toc-recommended-bibliography-will-be-updated" class="nav-link" data-scroll-target="#recommended-bibliography-will-be-updated">Recommended Bibliography (will be updated)</a></li>
+  <li><a href="#off-campus-access-to-the-itu-library-e-sources" id="toc-off-campus-access-to-the-itu-library-e-sources" class="nav-link" data-scroll-target="#off-campus-access-to-the-itu-library-e-sources">Off-Campus Access to the ITU Library E-sources</a></li>
+  <li><a href="#selected-important-dates" id="toc-selected-important-dates" class="nav-link" data-scroll-target="#selected-important-dates">Selected Important Dates</a></li>
+  </ul></li>
+  <li><a href="#course-policies" id="toc-course-policies" class="nav-link" data-scroll-target="#course-policies">Course Policies</a>
+  <ul class="collapse">
+  <li><a href="#grading-policy" id="toc-grading-policy" class="nav-link" data-scroll-target="#grading-policy">Grading Policy</a></li>
+  <li><a href="#midterm-date-will-be-updated" id="toc-midterm-date-will-be-updated" class="nav-link" data-scroll-target="#midterm-date-will-be-updated">Midterm date (will be updated)</a></li>
+  <li><a href="#late-submission-policy" id="toc-late-submission-policy" class="nav-link" data-scroll-target="#late-submission-policy">Late Submission Policy</a></li>
+  <li><a href="#final-exam-attendance-policy" id="toc-final-exam-attendance-policy" class="nav-link" data-scroll-target="#final-exam-attendance-policy">Final Exam Attendance Policy</a></li>
+  <li><a href="#make-up-exam-policy" id="toc-make-up-exam-policy" class="nav-link" data-scroll-target="#make-up-exam-policy">Make-Up Exam Policy</a></li>
+  <li><a href="#class-attendance-policy" id="toc-class-attendance-policy" class="nav-link" data-scroll-target="#class-attendance-policy">Class Attendance Policy</a></li>
+  <li><a href="#participation-policy" id="toc-participation-policy" class="nav-link" data-scroll-target="#participation-policy">Participation Policy</a></li>
+  <li><a href="#e-mail-policy" id="toc-e-mail-policy" class="nav-link" data-scroll-target="#e-mail-policy">E-mail Policy</a></li>
+  <li><a href="#academic-honesty-policy" id="toc-academic-honesty-policy" class="nav-link" data-scroll-target="#academic-honesty-policy">Academic Honesty Policy</a></li>
+  <li><a href="#equity-diversity-and-inclusion" id="toc-equity-diversity-and-inclusion" class="nav-link" data-scroll-target="#equity-diversity-and-inclusion">Equity, Diversity, and Inclusion</a></li>
+  <li><a href="#student-with-special-needs" id="toc-student-with-special-needs" class="nav-link" data-scroll-target="#student-with-special-needs">Student with Special Needs</a></li>
+  </ul></li>
+  </ul>
+<div class="toc-actions"><div><i class="bi bi-github"></i></div><div class="action-links"><p><a href="https://github.com/gulinan/mat221e-fall22/edit/main/syllabus.qmd" class="toc-action">Edit this page</a></p><p><a href="https://github.com/gulinan/mat221e-fall22/issues/new" class="toc-action">Report an issue</a></p></div></div></nav>
+    </div>
+<!-- main -->
+<main class="content" id="quarto-document-content">
+
+
+
+<section id="course-syllabus" class="level1">
+<h1>Course Syllabus</h1>
+<section id="course-type" class="level2">
+<h2 class="anchored" data-anchor-id="course-type">Course Type</h2>
+<p>Must course for undergraduate students.</p>
+</section>
+<section id="course-credits" class="level2">
+<h2 class="anchored" data-anchor-id="course-credits">Course Credits</h2>
+<p>3 local credits.</p>
+</section>
+<section id="course-prerequisites" class="level2">
+<h2 class="anchored" data-anchor-id="course-prerequisites">Course Prerequisites</h2>
+<p>None.</p>
+</section>
+<section id="course-description" class="level2">
+<h2 class="anchored" data-anchor-id="course-description">Course Description</h2>
+<p align="justify">
+This course is an introductory level probability class on introducing following concepts: sample space, probability measure on a sigma-algebra, Kolmogorov axioms, conditional probability, combinatorial methods, Bayes theorem. Random variables, discrete density functions, continuous density functions, functions of random variables, bivariate joint density functions, marginal and conditional density functions, independent random variables. Definition and properties of expectations. Chebyshev inequality. Moment generating functions. Special discrete and continuous distributions. Limit theorems, law of large numbers, central limit theorem. Slutsky’s theorem.
+</p>
+</section>
+<section id="class-schedule" class="level2">
+<h2 class="anchored" data-anchor-id="class-schedule">Class Schedule</h2>
+<p><code>CRN:11436:</code>Thursdays between 11:30-14:30 p.m.</p>
+</section>
+<section id="classroom" class="level2">
+<h2 class="anchored" data-anchor-id="classroom">Classroom:</h2>
+<p>Room D202 @ Faculty of Arts and Sciences.</p>
+</section>
+<section id="course-objectives" class="level2">
+<h2 class="anchored" data-anchor-id="course-objectives">Course Objectives:</h2>
+<p align="justify">
+</p><p>This course aims to:</p>
+<ul>
+<li>
+To provide the basic concepts of probability.
+</li>
+<li>
+To set up probability models for a range of random phenomena, both discrete and continuous.
+</li>
+<li>
+To develop critical thinking skills and abilities to apply calculus techniques (i.e., limits, derivatives, integration, infinite series) to assess the probability of an event.
+</li>
+</ul>
+<p></p>
+<p><link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css"></p>
+</section>
+<section id="course-tentative-plan-will-be-updated" class="level2">
+<h2 class="anchored" data-anchor-id="course-tentative-plan-will-be-updated">Course Tentative Plan (will be updated)</h2>
+<p>We will closely follow the weekly schedule given below. However, weekly class schedules are subject to change depending on the progress we make as a class.</p>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: center;"><strong>Week</strong></th>
+<th style="text-align: left;"><strong>Topic</strong></th>
+<th style="text-align: left;">History</th>
+<th style="text-align: center;"><a href="https://github.com/"><i class="fab fa-github"></i></a></th>
+<th style="text-align: center;"><br>Additional Documents</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: center;">1</td>
+<td style="text-align: left;">Random experiments, sample spaces, and events, and set operations. Counting methods, combinatorial methods, product rule, permutation, combination, binomial expansion, multinomial expansion, tree diagram.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">2</td>
+<td style="text-align: left;">Algebra of events, sigma-algebra of events, Borel sets, probability measure on a sigma-algebra. Kolmogorov axioms and related corollaries (with proofs).</td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Andrey_Kolmogorov">Andrey Kolmogorov</a></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">3</td>
+<td style="text-align: left;">Conditional probability, multiplication rule, independence of events, extension to multiple events.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">4</td>
+<td style="text-align: left;">Bayes’ theorem and the law of total probability.</td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Thomas_Bayes">Thomas Bayes</a></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"><a href="https://www.theguardian.com/world/2021/apr/18/obscure-maths-bayes-theorem-reliability-covid-lateral-flow-tests-probability">Reading assignment</a></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">5</td>
+<td style="text-align: left;">Random variables, distributions and probability mass functions, cumulative distribution function.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"><a href="https://colab.research.google.com/drive/1G4hPDOpq_9YRMIyST8sr_UMBLF6ythhC?usp=sharing">🔗</a></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">6</td>
+<td style="text-align: left;">Definition of Expectation, Special expectations: mean and variance. Special discrete distributions: Bernoulli, and Binomial distributions.</td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Jacob_Bernoulli">Jacob (James) Bernoulli</a></td>
+<td style="text-align: center;"><a href="https://colab.research.google.com/drive/1nDe0O7LgRs9OKHjESBWjzdeiVdxSMuED?usp=sharing">🔗</a></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">7</td>
+<td style="text-align: left;">Special discrete distributions: Poisson, Geometric, Negative Binomial, Hypergeometric, and discrete uniform distributions. <strong>Quiz I during lecture hour.</strong></td>
+<td style="text-align: left;"><a href="https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson">Siméon Denis Poisson</a></td>
+<td style="text-align: center;"><a href="https://colab.research.google.com/drive/1PvczfQSX8_YuyLqjqIFrOg0b3yJtVErZ?usp=sharing">🔗</a></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">8</td>
+<td style="text-align: left;">ITU Fall Break.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">9</td>
+<td style="text-align: left;">Continuous random variables: Probability density functions, Uniform, Normal and Exponential distributions.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">10</td>
+<td style="text-align: left;"><strong>Midterm on December 9, 2021 during lecture hour.</strong></td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">11</td>
+<td style="text-align: left;">Moments: Summaries of a distribution, sample moments, moment generating functions.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">12</td>
+<td style="text-align: left;">Joint distributions: Joint, marginal, and conditional distributions. Covariance and correlation. Multinomial distribution. Multivariate Normal distribution.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">13</td>
+<td style="text-align: left;">Transformations: Change of variables, convolutions, Beta and Gamma distributions.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="even">
+<td style="text-align: center;">14</td>
+<td style="text-align: left;">Marginal and conditional density functions, independent random variables. Conditional expectation. Conditional variance.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+<tr class="odd">
+<td style="text-align: center;">15</td>
+<td style="text-align: left;">Inequalities. Limit theorems: law of large numbers and central limit theorem. Slutsky’s theorem. Chi-square, Student-t, and F distributions.</td>
+<td style="text-align: left;"></td>
+<td style="text-align: center;"></td>
+<td style="text-align: center;"></td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="student-learning-outcomes" class="level2">
+<h2 class="anchored" data-anchor-id="student-learning-outcomes">Student Learning Outcomes</h2>
+<p align="justify">
+</p><p>A student who completed this course successfully is expected to:</p>
+<ul>
+<li>
+Understand and apply basic concepts of probability.
+</li>
+<li>
+Understand probability distributions for both discrete and continuous phenomena.
+</li>
+<li>
+Calculate basic characteristics such as mean and variance of probability distributions, and any probability associated with this distributions.
+</li>
+<li>
+Use special probability distributions for modeling events.
+</li>
+<li>
+Use limit theorems.
+</li>
+</ul>
+immediately following the course, and/or a few months after the course.
+<p></p>
+</section>
+<section id="textbook" class="level2">
+<h2 class="anchored" data-anchor-id="textbook">Textbook</h2>
+<p>All lecture materials. Lecture materials (notes, assignments, etc) will be uploaded on <a href="https://ninova.itu.edu.tr">Ninova</a>.</p>
+</section>
+<section id="course-workload" class="level2">
+<h2 class="anchored" data-anchor-id="course-workload">Course Workload</h2>
+<p>1 homework, 1 midterm exam, class-in performance, and 1 final exam (see the grading policy below).</p>
+</section>
+<section id="recommended-bibliography-will-be-updated" class="level2">
+<h2 class="anchored" data-anchor-id="recommended-bibliography-will-be-updated">Recommended Bibliography (will be updated)</h2>
+<p align="justify">
+</p><p>Students are encouraged to consult the following sources on their own:</p>
+<ul>
+<li>
+DeGroot., M.H. and Schervish, M.J. (2012). Probability and Statistics. Boston: Addison-Wesley, c2012. [Hard copy available at ITU Mustafa Inan Library with CALL #QA273 .D445 2012].
+</li>
+<li>
+Hogg, V.H. and Craig, A.T. (1995). Introduction to Mathematical Statistics. New Jersey: Prentice-Hall International. [Hard copy available at ITU Mustafa Inan Library with CALL #QA276 .H643 1995].
+</li>
+<li>
+Hogg, R. V., Tanis, E. A., and Zimmerman, D.L. (2010). Probability and Statistical Inference. Upper Saddle River, NJ, USA: Pearson/Prentice Hall.
+</li>
+<li>
+Miller, I. and Miller, M. (2004). John E. Freund’s mathematical statistics with applications. Upper Saddle River, NJ. [Hard copy available at ITU Mustafa Inan Library Reserve with CALL #QA276 .M55 2004].
+</li>
+</ul>
+<p></p>
+</section>
+<section id="off-campus-access-to-the-itu-library-e-sources" class="level2">
+<h2 class="anchored" data-anchor-id="off-campus-access-to-the-itu-library-e-sources">Off-Campus Access to the ITU Library E-sources</h2>
+<p align="justify">
+Access to library e-sources remotely is possible with a library account. Users without a library account should apply for the library registration at <a href="https://kutuphane.itu.edu.tr/en/register">Library register</a>. After setting the web configurations given at <a href="https://kutuphane.itu.edu.tr/en/services/web-browser-proxy-settings">Proxy</a> only once on your computer, you will able to have an access to ITU Library e-sources.
+</p><p>
+</p></section>
+<section id="selected-important-dates" class="level2">
+<h2 class="anchored" data-anchor-id="selected-important-dates">Selected Important Dates</h2>
+<p>For the official ITU Fall 2022 academic calendar, please visit:</p>
+<p><a href="https://www.sis.itu.edu.tr/TR/ogrenci/akademik-takvim/akademik-takvimler/takvim2023/lisansustu-akademik-takvimi.php" class="uri">https://www.sis.itu.edu.tr/TR/ogrenci/akademik-takvim/akademik-takvimler/takvim2023/lisansustu-akademik-takvimi.php</a></p>
+<p>Here are some selected important dates in Fall 2022 semester:</p>
+<p>September 19, 2022: First day of classes.</p>
+<p>September 19-23, 2022: Add-drop week.</p>
+<p>October 29, 2022: Republic Day of Turkey (Saturday).</p>
+<p>November 7-11, 2022: ITU Fall Break (No classes).</p>
+<p>December 30, 2022: Last day of classes.</p>
+<p>January 1, 2023: New year (Sunday).</p>
+<p>January 02-15, 2023: Final exam week.</p>
+<p>I also honor other national and religious holidays. Students, who needs flexibility on individual-based studies overlapping with these special days, can inform me.</p>
+</section>
+</section>
+<section id="course-policies" class="level1">
+<h1>Course Policies</h1>
+<p>Please read the information below as a reference for how this class will be conducted.</p>
+<section id="grading-policy" class="level2">
+<h2 class="anchored" data-anchor-id="grading-policy">Grading Policy</h2>
+<table class="table">
+<thead>
+<tr class="header">
+<th style="text-align: left;">Assessment Method</th>
+<th style="text-align: left;">Contribution to Final Grade</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td style="text-align: left;">In-class performance</td>
+<td style="text-align: left;">10%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">1 Homework</td>
+<td style="text-align: left;">10%</td>
+</tr>
+<tr class="odd">
+<td style="text-align: left;">Midterm exam</td>
+<td style="text-align: left;">40%</td>
+</tr>
+<tr class="even">
+<td style="text-align: left;">Final exam</td>
+<td style="text-align: left;">40%</td>
+</tr>
+</tbody>
+</table>
+</section>
+<section id="midterm-date-will-be-updated" class="level2">
+<h2 class="anchored" data-anchor-id="midterm-date-will-be-updated">Midterm date (will be updated)</h2>
+<p>TBA.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li><strong>Student studies, namely, homework and exam papers which are not written well, does not follow a proper mathematical writing language, and are hard to review, will get “0” credit for that question.</strong></li>
+<li>Please read the general advice given at: <a href="http://ma117.math.metu.edu.tr/course-info/general-advice/" class="uri">http://ma117.math.metu.edu.tr/course-info/general-advice/</a>.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="late-submission-policy" class="level2">
+<h2 class="anchored" data-anchor-id="late-submission-policy">Late Submission Policy</h2>
+<p>There are <strong>NO</strong> make-ups for missed homework.</p>
+</section>
+<section id="final-exam-attendance-policy" class="level2">
+<h2 class="anchored" data-anchor-id="final-exam-attendance-policy">Final Exam Attendance Policy</h2>
+<p>At least 35% of in-semester studies.</p>
+</section>
+<section id="make-up-exam-policy" class="level2">
+<h2 class="anchored" data-anchor-id="make-up-exam-policy">Make-Up Exam Policy</h2>
+<p align="justify">
+The students who miss either midterm exam or final exam due to a health problem can take a make-up exam as long as they have a valid medical report taken on the exam day. The medical report should be handed in immediately (within two days of its expiration).
+</p>
+</section>
+<section id="class-attendance-policy" class="level2">
+<h2 class="anchored" data-anchor-id="class-attendance-policy">Class Attendance Policy</h2>
+<p align="justify">
+The students must attend at least 70% of classes and are deemed responsible to manage his/her absences.
+</p>
+</section>
+<section id="participation-policy" class="level2">
+<h2 class="anchored" data-anchor-id="participation-policy">Participation Policy</h2>
+<p align="justify">
+The students are expected to ask and answer questions, participate in in-class activities, and show their interest and engagement in the class.
+</p>
+</section>
+<section id="e-mail-policy" class="level2">
+<h2 class="anchored" data-anchor-id="e-mail-policy">E-mail Policy</h2>
+<p>Please:</p>
+<ul>
+<li>Use a proper descriptive subject line (which may consist of the course number MAT221E followed by a short phrase summarizing the subject of your e-mail).</li>
+<li>Start off your e-mail with a proper greeting, introduce yourself (give your name), then state your problem as short as possible.</li>
+<li>Finally, use a proper closing and then finish your e-mail with your first name and so on.</li>
+</ul>
+<p>Feel free to send me e-mails. But be sure you that give me enough time to get back to you.</p>
+<div class="callout-important callout callout-style-default callout-captioned">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-caption-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<ul>
+<li>E-mail messages sent after business hours and at weekends will be responded at the closest business hour.</li>
+<li>Lastly, e-mails asking for grade grubbing at the end of the semester are not welcomed.</li>
+</ul>
+</div>
+</div>
+</section>
+<section id="academic-honesty-policy" class="level2">
+<h2 class="anchored" data-anchor-id="academic-honesty-policy">Academic Honesty Policy</h2>
+<p align="justify">
+</p><p>At every stage of the academic life, every ITU student is responsible for obeying the academic honesty policy of ITU stated below:</p>
+<a href="https://odek.itu.edu.tr/en/code-of-honor/ethics-in-university-life" class="uri">https://odek.itu.edu.tr/en/code-of-honor/ethics-in-university-life</a>.
+<p></p>
+</section>
+<section id="equity-diversity-and-inclusion" class="level2">
+<h2 class="anchored" data-anchor-id="equity-diversity-and-inclusion">Equity, Diversity, and Inclusion</h2>
+<p align="justify">
+In this class, I am committed to cultural and individual differences and diversity as including, but not limited to, age, disability, ethnicity, gender, gender identity, language, national origin, race, religion, culture, and socioeconomic status and I acknowledge the value of differences.
+</p>
+</section>
+<section id="student-with-special-needs" class="level2">
+<h2 class="anchored" data-anchor-id="student-with-special-needs">Student with Special Needs</h2>
+<p align="justify">
+</p><p>If you are a student with special needs, let me know that how we can adjust the course environment and materials in accordance with your needs. Furthermore, you are also invited to contact the office of students with special needs at:</p>
+<a href="http://engelsiz.itu.edu.tr/" class="uri">http://engelsiz.itu.edu.tr/</a>.
+<p></p>
+
+
+</section>
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const clipboard = new window.ClipboardJS('.code-copy-button', {
+    target: function(trigger) {
+      return trigger.previousElementSibling;
+    }
+  });
+  clipboard.on('success', function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    setTimeout(function() {
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  });
+  function tippyHover(el, contentFn) {
+    const config = {
+      allowHTML: true,
+      content: contentFn,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start'
+    };
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      let href = ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      return note.innerHTML;
+    });
+  }
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const cites = ref.parentNode.getAttribute('data-cites').split(' ');
+    tippyHover(ref, function() {
+      var popup = window.document.createElement('div');
+      cites.forEach(function(cite) {
+        var citeDiv = window.document.createElement('div');
+        citeDiv.classList.add('hanging-indent');
+        citeDiv.classList.add('csl-entry');
+        var biblioDiv = window.document.getElementById('ref-' + cite);
+        if (biblioDiv) {
+          citeDiv.innerHTML = biblioDiv.innerHTML;
+        }
+        popup.appendChild(citeDiv);
+      });
+      return popup.innerHTML;
+    });
+  }
+});
+</script>
+<nav class="page-navigation">
+  <div class="nav-page nav-page-previous">
+      <a href="./instructor.html" class="pagination-link">
+        <i class="bi bi-arrow-left-short"></i> <span class="nav-page-text">Instructor Information</span>
+      </a>          
+  </div>
+  <div class="nav-page nav-page-next">
+      <a href="./labs/lab_01.html" class="pagination-link">
+        <span class="nav-page-text">Lab 01</span> <i class="bi bi-arrow-right-short"></i>
+      </a>
+  </div>
+</nav>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">This website is built with <a href="https://quarto.org/"><img src="https://quarto.org/quarto.png" class="img-fluid" alt="Quarto" width="80"></a>.</div>   
+    <div class="nav-footer-right">© Copyright 2022, Gül İnan</div>
+  </div>
+</footer>
+
+
+
+</body></html>

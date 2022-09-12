@@ -1,0 +1,51 @@
+project:
+  type: website
+  output-dir: docs
+freeze: auto
+
+website:
+
+  page-navigation: true
+  title: "MAT221E"
+  description: "Homepage for MAT221E."
+  site-url: "https://gulinan.github.io/mat221e-fall22/"
+   
+  repo-url: https://github.com/gulinan/mat221e-fall22
+  repo-actions: [edit, issue] 
+  
+  page-footer:
+    left: |
+      This website is built with [![](https://quarto.org/quarto.png){fig-alt="Quarto" width=80px}](https://quarto.org/).
+    right: "&copy; Copyright 2022, Gül İnan"
+
+  sidebar: 
+    logo: "images/logo.png"
+    pinned: true
+    align: center
+    tools:
+      - icon: github
+        href: https://github.com/gulinan/mat221e-fall22
+      - icon: code-square
+        href: https://ninova.itu.edu.tr/Ders/25432/Sinif/81565
+    style: "floating"
+    search: true
+    collapse-level: 0
+    contents:
+      - section: "**Course Information**"
+        contents:
+          - href: instructor.qmd
+          - href: syllabus.qmd
+      - section: "**Lab Materials**"
+        contents: 
+          - href: labs/lab_01.ipynb  
+          
+format:
+  html:
+    theme: flatly
+    css: styles.css
+    toc: true
+    code-copy: true
+    code-overflow: wrap
+    highlight-style: tango
+
+

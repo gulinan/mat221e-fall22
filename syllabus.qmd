@@ -1,0 +1,242 @@
+---
+title: ""
+format: html
+editor: visual
+---
+
+# Course Syllabus
+
+## Course Type
+
+Must course for undergraduate students.
+
+
+## Course Credits
+
+3 local credits.
+
+## Course Prerequisites
+
+None.
+
+## Course Description
+<p align="justify">
+This course is an introductory level probability class on introducing following concepts: sample space, probability measure on a sigma-algebra, Kolmogorov axioms, conditional probability, combinatorial methods, Bayes theorem. Random variables, discrete density functions, continuous density functions, functions of random variables, bivariate joint density functions, marginal and conditional density functions, independent random variables. Definition and properties of expectations. Chebyshev inequality. Moment generating functions. Special discrete and continuous distributions. Limit theorems, law of large numbers, central limit theorem. Slutsky's theorem. 
+</p>
+
+## Class Schedule
+
+`CRN:11436:`Thursdays between 11:30-14:30 p.m.
+
+## Classroom:
+
+Room D202 @ Faculty of Arts and Sciences.
+
+## Course Objectives:
+
+<p align="justify">
+
+This course aims to: 
+
+<ul>
+
+<li> To provide the basic concepts of probability. </li>
+<li> To set up probability models for a range of random phenomena, both discrete and continuous. </li>
+<li>To develop critical thinking skills and abilities to apply calculus techniques (i.e., limits,
+derivatives, integration, infinite series) to assess the probability of an event. </li>
+</ul>
+</p>
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
+
+## Course Tentative Plan (will be updated)
+
+We will closely follow the weekly schedule given below.
+However, weekly class schedules are subject to change depending on the progress we make as a class.
+
+| **Week**  | **Topic**                |  History| <a href="https://github.com/"><i class="fab fa-github"></i></a> | <br>Additional Documents|
+| :-----:   |:-------------------------|:---|:---:|:---:|
+| 1         | Random experiments, sample spaces, and events, and set operations. Counting methods, combinatorial methods, product rule, permutation, combination, binomial expansion, multinomial expansion, tree diagram.| | | |
+| 2         | Algebra of events, sigma-algebra of events, Borel sets, probability measure on a sigma-algebra. Kolmogorov axioms and related corollaries (with proofs).| [Andrey Kolmogorov](https://en.wikipedia.org/wiki/Andrey_Kolmogorov) | | |
+| 3         | Conditional probability, multiplication rule, independence of events, extension to multiple events.| | | |
+| 4         | Bayes' theorem and the law of total probability.| [Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes) | |[Reading assignment](https://www.theguardian.com/world/2021/apr/18/obscure-maths-bayes-theorem-reliability-covid-lateral-flow-tests-probability) | 
+| 5         | Random variables, distributions and probability mass functions, cumulative distribution function. | |[🔗](https://colab.research.google.com/drive/1G4hPDOpq_9YRMIyST8sr_UMBLF6ythhC?usp=sharing)  | |
+| 6 | Definition of Expectation, Special expectations: mean and variance. Special discrete distributions: Bernoulli, and Binomial distributions.  | [Jacob (James) Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli) |  [🔗](https://colab.research.google.com/drive/1nDe0O7LgRs9OKHjESBWjzdeiVdxSMuED?usp=sharing)| |
+| 7 | Special discrete distributions: Poisson, Geometric, Negative Binomial, Hypergeometric, and discrete uniform distributions. **Quiz I during lecture hour.** |[Siméon Denis Poisson](https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson)| [🔗](https://colab.research.google.com/drive/1PvczfQSX8_YuyLqjqIFrOg0b3yJtVErZ?usp=sharing) |  | 
+| 8 | ITU Fall Break.  | | |
+| 9 | Continuous random variables: Probability density functions, Uniform, Normal and Exponential distributions.| | | |
+| 10 | **Midterm on December 9, 2021 during lecture hour.** | | | |
+| 11 | Moments: Summaries of a distribution, sample moments, moment generating functions. | | | |
+| 12 | Joint distributions: Joint, marginal, and conditional distributions. Covariance and correlation. Multinomial distribution. Multivariate Normal distribution. | | | |
+| 13 | Transformations: Change of variables, convolutions, Beta and Gamma distributions.| | | |
+| 14 | Marginal and conditional density functions, independent random variables. Conditional expectation. Conditional variance.| | | |
+| 15 | Inequalities. Limit theorems: law of large numbers and central limit theorem. Slutsky's theorem.  Chi-square, Student-t, and F distributions.| | | |
+
+
+## Student Learning Outcomes
+
+<p align="justify">
+A student who completed this course successfully is expected to: 
+
+<ul>
+<li>Understand and apply basic concepts of probability. </li>
+<li>Understand probability distributions for both discrete and continuous phenomena. </li>
+<li>Calculate basic characteristics such as mean and variance of probability distributions, and any probability
+associated with this distributions. </li>
+<li>Use special probability distributions for modeling events. </li>
+<li>Use limit theorems.</li>
+</ul>
+immediately following the course, and/or a few months after the course.
+</p>
+
+## Textbook
+
+All lecture materials. Lecture materials (notes, assignments, etc) will be uploaded on [Ninova](https://ninova.itu.edu.tr).
+
+## Course Workload
+
+1 homework, 1 midterm exam, class-in performance, and 1 final exam  (see the grading policy below). 
+
+## Recommended Bibliography (will be updated)
+
+<p align="justify">
+Students are encouraged to consult the following
+sources on their own:
+
+<ul>
+<li>DeGroot., M.H. and Schervish, M.J. (2012). Probability and Statistics. Boston: Addison-Wesley, c2012.
+[Hard copy available at ITU Mustafa Inan Library with CALL #QA273 .D445 2012]. </li>
+<li>Hogg, V.H. and Craig, A.T. (1995). Introduction to Mathematical Statistics. New Jersey: Prentice-Hall International.  [Hard copy available at ITU Mustafa Inan Library with CALL #QA276 .H643 1995]. </li>  
+<li>Hogg, R. V., Tanis, E. A., and Zimmerman, D.L. (2010). Probability and Statistical Inference. Upper Saddle River, NJ, USA: Pearson/Prentice Hall. </li>
+<li>Miller, I. and Miller, M. (2004). John E. Freund's mathematical statistics with applications. Upper Saddle River, NJ. [Hard copy available at ITU Mustafa Inan Library Reserve with CALL #QA276 .M55 2004].  </li>
+</ul>
+</p>
+ 
+## Off-Campus Access to the ITU Library E-sources  
+
+<p align="justify">
+
+Access to library e-sources remotely is possible with a library account. Users without a library account should apply for the library registration at <a href="https://kutuphane.itu.edu.tr/en/register">Library register</a>. After setting the web configurations given at <a href="https://kutuphane.itu.edu.tr/en/services/web-browser-proxy-settings">Proxy</a> only once on your computer, you will able to have an access to ITU Library e-sources.
+<p>
+
+
+## Selected Important Dates
+
+For the official ITU Fall 2022 academic calendar, please visit:
+
+<https://www.sis.itu.edu.tr/TR/ogrenci/akademik-takvim/akademik-takvimler/takvim2023/lisansustu-akademik-takvimi.php>
+
+Here are some selected important dates in Fall 2022 semester:
+
+September 19, 2022: First day of classes.
+
+September 19-23, 2022: Add-drop week.
+
+October 29, 2022: Republic Day of Turkey (Saturday).
+
+November 7-11, 2022: ITU Fall Break (No classes).
+
+December 30, 2022: Last day of classes.
+
+January 1, 2023: New year (Sunday).
+
+January 02-15, 2023: Final exam week.
+
+I also honor other national and religious holidays. Students, who needs flexibility on individual-based studies overlapping with these special days, can inform me.
+
+# Course Policies
+
+Please read the information below as a reference for how this class will be conducted. 
+
+## Grading Policy
+
+| Assessment Method    | Contribution to Final Grade |
+|:---------------------|:----------------------------|
+| In-class performance | 10%                         |
+| 1 Homework           | 10%                         |
+| Midterm exam         | 40%                         |
+| Final exam           | 40%                         |
+   
+## Midterm date (will be updated)
+
+TBA.
+
+::: callout-important
+- **Student studies, namely, homework and exam papers which are not written well, does not follow a proper mathematical writing language, and are hard to review, will get "0" credit for that question.**
+- Please read the general advice given at:
+  <http://ma117.math.metu.edu.tr/course-info/general-advice/>.
+:::
+
+## Late Submission Policy
+
+There are **NO** make-ups for missed homework.
+
+## Final Exam Attendance Policy
+
+At least 35% of in-semester studies.
+
+## Make-Up Exam Policy
+
+<p align="justify">
+The students who miss either midterm exam or final exam due to a health problem
+can take a make-up exam as long as they have a valid medical report taken on the exam day. The medical report should be handed in immediately (within two days of its expiration). 
+</p>
+
+## Class Attendance Policy
+
+<p align="justify">
+The students must attend at least 70% of classes and
+are deemed responsible to manage his/her absences.
+</p>
+
+## Participation Policy 
+
+<p align="justify">
+The students are expected to ask and answer
+questions, participate in in-class activities, and
+show their interest and engagement in the class. 
+</p>
+
+## E-mail Policy
+
+
+Please:
+
+-   Use a proper descriptive subject line (which may consist of the course number MAT221E followed by a short phrase summarizing the subject of your e-mail).
+-   Start off your e-mail with a proper greeting, introduce yourself (give your name), then state your problem as short as possible.
+-   Finally, use a proper closing and then finish your e-mail with your first name and so on.
+
+Feel free to send me e-mails. But be sure you that give me enough time to get back to you.
+
+::: callout-important
+-   E-mail messages sent after business hours and at weekends will be responded at the closest business hour.
+-   Lastly, e-mails asking for grade grubbing at the end of the semester are not welcomed.
+:::
+
+
+## Academic Honesty Policy 
+
+<p align="justify">
+At every stage of the academic life, every ITU student is responsible for obeying the academic honesty policy of ITU stated below:
+
+<https://odek.itu.edu.tr/en/code-of-honor/ethics-in-university-life>.
+</p>   
+
+## Equity, Diversity, and Inclusion
+
+<p align="justify">
+In this class, I am committed to cultural and individual differences and diversity as including, but not limited to, age, disability, ethnicity, gender, gender identity, language, national origin, race, religion, culture, and socioeconomic status and I acknowledge the value of differences. 
+</p>
+  
+## Student with Special Needs
+
+<p align="justify">
+If you are a student with special needs, let me know
+that how we can adjust the course environment and materials in accordance with your needs. 
+Furthermore, you are also invited to contact the office of students with special needs at:
+
+<http://engelsiz.itu.edu.tr/>.
+</p>
+
+
+
