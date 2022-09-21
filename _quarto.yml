@@ -35,9 +35,7 @@ website:
         contents:
           - href: instructor.qmd
           - href: syllabus.qmd
-      - section: "**Lab Materials**"
-        contents: 
-          - href: labs/lab_01.ipynb  
+    
           
 format:
   html:

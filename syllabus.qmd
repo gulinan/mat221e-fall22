@@ -32,7 +32,7 @@ This course is an introductory level probability class on introducing following 
 
 ## Classroom
 
-Room D-202 @ Faculty of Arts and Sciences.
+Room D-202 \@ Faculty of Arts and Sciences.
 
 ## Course Objectives:
 
@@ -54,27 +54,20 @@ This course aims to:
 
 <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.1/css/all.css">
 
-## Course Tentative Plan (last year's schedule, will be updated soon)
+## Course Tentative Plan 
 
 We will closely follow the weekly schedule given below. However, weekly class schedules are subject to change depending on the progress we make as a class.
 
-| **Week** | **Topic**                                                                                                                                                                                                    | History                                                                         |               <a href="https://github.com/"><i class="fab fa-github"></i></a>               |                                                             <br>Additional Documents                                                             |
-|:---------:|:------------------------------|:----------|:---------:|:---------:|
-|    1     | Random experiments, sample spaces, and events, and set operations. Counting methods, combinatorial methods, product rule, permutation, combination, binomial expansion, multinomial expansion, tree diagram. |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    2     | Algebra of events, sigma-algebra of events, Borel sets, probability measure on a sigma-algebra. Kolmogorov axioms and related corollaries (with proofs).                                                     | [Andrey Kolmogorov](https://en.wikipedia.org/wiki/Andrey_Kolmogorov)            |                                                                                             |                                                                                                                                                  |
-|    3     | Conditional probability, multiplication rule, independence of events, extension to multiple events.                                                                                                          |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    4     | Bayes' theorem and the law of total probability.                                                                                                                                                             | [Thomas Bayes](https://en.wikipedia.org/wiki/Thomas_Bayes)                      |                                                                                             | [Reading assignment](https://www.theguardian.com/world/2021/apr/18/obscure-maths-bayes-theorem-reliability-covid-lateral-flow-tests-probability) |
-|    5     | Random variables, distributions and probability mass functions, cumulative distribution function.                                                                                                            |                                                                                 | [🔗](https://colab.research.google.com/drive/1G4hPDOpq_9YRMIyST8sr_UMBLF6ythhC?usp=sharing) |                                                                                                                                                  |
-|    6     | Definition of Expectation, Special expectations: mean and variance. Special discrete distributions: Bernoulli, and Binomial distributions.                                                                   | [Jacob (James) Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli)        | [🔗](https://colab.research.google.com/drive/1nDe0O7LgRs9OKHjESBWjzdeiVdxSMuED?usp=sharing) |                                                                                                                                                  |
-|    7     | Special discrete distributions: Poisson, Geometric, Negative Binomial, Hypergeometric, and discrete uniform distributions. **Quiz I during lecture hour.**                                                   | [Siméon Denis Poisson](https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson) | [🔗](https://colab.research.google.com/drive/1PvczfQSX8_YuyLqjqIFrOg0b3yJtVErZ?usp=sharing) |                                                                                                                                                  |
-|    8     | ITU Fall Break.                                                                                                                                                                                              |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    9     | Continuous random variables: Probability density functions, Uniform, Normal and Exponential distributions.                                                                                                   |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    10    | **Midterm on December 9, 2021 during lecture hour.**                                                                                                                                                         |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    11    | Moments: Summaries of a distribution, sample moments, moment generating functions.                                                                                                                           |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    12    | Joint distributions: Joint, marginal, and conditional distributions. Covariance and correlation. Multinomial distribution. Multivariate Normal distribution.                                                 |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    13    | Transformations: Change of variables, convolutions, Beta and Gamma distributions.                                                                                                                            |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    14    | Marginal and conditional density functions, independent random variables. Conditional expectation. Conditional variance.                                                                                     |                                                                                 |                                                                                             |                                                                                                                                                  |
-|    15    | Inequalities. Limit theorems: law of large numbers and central limit theorem. Slutsky's theorem. Chi-square, Student-t, and F distributions.                                                                 |                                                                                 |                                                                                             |                                                                                                                                                  |
+- Counting methods, combinatorial methods, product rule, permutation, combination, binomial expansion, multinomial expansion, tree diagram.
+- Axioms of probability and related corollaries (with proofs).
+- Conditional probability, multiplication rule, independent of events, extension to multiple events.  
+- Bayes' theorem and the law of total probability. 
+- Random variables, distributions and probability mass functions, cumulative distribution function.  
+- Expectation, variance, moment generating functions (MGF).
+- Special discrete distributions: Bernoulli, Binomial distributions, Poisson, Geometric, Negative Binomial, Hypergeometric, and discrete uniform distributions. Expectation, variance, and MGF of these distributions. 
+- Continuous random variables: Probability density functions, Uniform, Exponential, Gamma, Normal, Standard Normal distributions. Expectation, variance, and MGF of these distributions.
+- Limit theorems: Inequalities. Law of large numbers. Central limit theorem. 
+- Joint distributions: Joint, marginal, and conditional distributions. Covariance and correlation. Marginal and conditional density functions, independent random variables. Conditional expectation. Conditional variance.  Transformations: Change of variables, convolutions   
 
 ## Student Learning Outcomes
 
@@ -102,13 +95,13 @@ immediately following the course, and/or a few months after the course.
 
 ## Textbook
 
-All lecture materials. Lecture materials (notes, assignments, etc) will be uploaded on [Ninova](https://ninova.itu.edu.tr).
+All lecture materials. Lecture notes will **NOT** be uploaded on [Ninova](https://ninova.itu.edu.tr).
 
 ## Course Workload
 
 1 homework, 1 midterm exam, class-in performance, and 1 final exam (see the grading policy below).
 
-## Recommended Bibliography (will be updated)
+## Recommended Bibliography 
 
 <p align="justify">
 
@@ -122,10 +115,11 @@ Students are encouraged to consult the following sources on their own:
 
 <li>Hogg, R. V., Tanis, E. A., and Zimmerman, D.L. (2010). Probability and Statistical Inference. Upper Saddle River, NJ, USA: Pearson/Prentice Hall.</li>
 
-<li>Miller, I. and Miller, M. (2004). John E. Freund's mathematical statistics with applications. Upper Saddle River, NJ. \[Hard copy available at ITU Mustafa Inan Library Reserve with CALL #QA276 .M55 2004\].</li>
-
 <li>Işlak, Ümit. (2022). Temel Olasılık Teorisi ve İstatistik I. Nesin Yayınevi. (Baskıda)</li>
 
+<li>Miller, I. and Miller, M. (2004). John E. Freund's mathematical statistics with applications. Upper Saddle River, NJ. \[Hard copy available at ITU Mustafa Inan Library Reserve with CALL #QA276 .M55 2004\].</li>
+
+<li> Ross, S. M. (2013). A First Course in Probability. Boston: Pearson.\[Hard copy available at ITU Mustafa Inan Library with CALL #QA273 .R67 2013\].</li>  
 </ul>
 
 </p>
@@ -186,7 +180,7 @@ TBA.
 
 ## Late Submission Policy
 
-There are **NO** make-ups for missed homework.
+There are **NO** make-ups for missed homework or in-class activities.
 
 ## Final Exam Attendance Policy
 
