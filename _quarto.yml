@@ -35,6 +35,7 @@ website:
         contents:
           - href: instructor.qmd
           - href: syllabus.qmd
+          - href: history.qmd
     
           
 format:

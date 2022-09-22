@@ -1,0 +1,11 @@
+---
+title: ""
+format: html
+editor: visual
+---
+
+# History 
+
+Here I will collect some web notes on history of some probability concepts and scientists who played a significant role in probability, and in turn, in statistics. I do this for personal interest, but I share it it since there may be some students who would also like to be interested in on these pieces.
+
+- [The origins of probability](https://timesofmalta.com/articles/the-origins-of-probability.684474)
