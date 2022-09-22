@@ -35,6 +35,8 @@ website:
         contents:
           - href: instructor.qmd
           - href: syllabus.qmd
+      - section: "**History of Probability**"
+        contents:    
           - href: history.qmd
     
           
