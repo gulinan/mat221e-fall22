@@ -4,8 +4,13 @@ format: html
 editor: visual
 ---
 
-# History 
+# History
 
 Here I will collect some web notes on history of probability concepts and scientists who played a significant role in probability, and in turn, in statistics. I do this for personal interest, but I share it here since there may also be some students interested in these topics.
 
-- [The origins of probability](https://timesofmalta.com/articles/the-origins-of-probability.684474)
+-   [The origins of probability](https://timesofmalta.com/articles/the-origins-of-probability.684474)
+
+- Binomial coefficients and the binomial theorem:
+
+[![](images/cardano.png){fig-align="center" width="400"}](https://twitter.com/HOS_ASA)
+
