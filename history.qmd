@@ -10,7 +10,19 @@ Here I will collect some web notes on history of probability concepts and scient
 
 -   [The origins of probability](https://timesofmalta.com/articles/the-origins-of-probability.684474)
 
-- Binomial coefficients and the binomial theorem:
+-   Binomial coefficients and the binomial theorem:
 
 [![](images/cardano.png){fig-align="center" width="400"}](https://twitter.com/HOS_ASA)
+
+
+-   Venn Diagram:
+
+    [John Venn](https://en.wikipedia.org/wiki/John_Venn)
+
+
+-  Probability Axioms:
+
+    [Andrey Kolmogorov](https://en.wikipedia.org/wiki/Andrey_Kolmogorov)
+
+
 
