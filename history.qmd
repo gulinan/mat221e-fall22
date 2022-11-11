@@ -6,7 +6,7 @@ editor: visual
 
 # History
 
-Here I will collect some web notes on history of probability concepts and scientists who played a significant role in probability, and in turn, in statistics. I do this for personal interest, but I share it here since there may also be some students interested in these topics.
+Here I will collect some web notes on history of probability concepts and scientists who played a significant role in probability, and in turn, in statistics. I do this for personal interest, but I share it here since there may also be some students interested in these topics (`some images are clickable`).
 
 -   [The origins of probability](https://timesofmalta.com/articles/the-origins-of-probability.684474)
 
@@ -24,6 +24,11 @@ Here I will collect some web notes on history of probability concepts and scient
 
     [Andrey Kolmogorov](https://en.wikipedia.org/wiki/Andrey_Kolmogorov)
 
--   Thomas Bayes:
+-   [Thomas Bayes](https://tr.wikipedia.org/wiki/Thomas_Bayes):
 
-[![](images/bayes.png){fig-align="center" width="400"}](https://tr.wikipedia.org/wiki/Thomas_Bayes)
+[![](images/bayes.png){fig-align="center" width="250"}](https://tr.wikipedia.org/wiki/Thomas_Bayes)
+
+-   A discussion on naming "random variable":
+
+  [![](images/randomvariable.png){fig-align="center" width="400"}](https://twitter.com/HOS_ASA/status/1590478240397021184)
+    
