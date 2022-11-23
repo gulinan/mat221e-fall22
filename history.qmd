@@ -30,5 +30,12 @@ Here I will collect some web notes on history of probability concepts and scient
 
 -   A discussion on naming "random variable":
 
-  [![](images/randomvariable.png){fig-align="center" width="400"}](https://twitter.com/HOS_ASA/status/1590478240397021184)
-    
+[![](images/randomvariable.png){fig-align="center" width="400"}](https://twitter.com/HOS_ASA/status/1590478240397021184)
+
+- [Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli):
+
+[![](images/bernoulli.png){fig-align="center" width="250"}](https://en.wikipedia.org/wiki/Jacob_Bernoulli)
+
+- [Siméon Denis Poisson](https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson):
+
+[![](images/poisson.png){fig-align="center" width="250"}](https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson)

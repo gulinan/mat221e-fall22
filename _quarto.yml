@@ -35,10 +35,15 @@ website:
         contents:
           - href: instructor.qmd
           - href: syllabus.qmd
+      - section: "**Lab Materials**"
+        contents:
+          - section: "Week 08"
+            contents:
+              - href: labs/Week_08/name.ipynb  
       - section: "**History of Probability**"
         contents:    
           - href: history.qmd
-    
+      
           
 format:
   html:
