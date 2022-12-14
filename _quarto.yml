@@ -37,9 +37,9 @@ website:
           - href: syllabus.qmd
       - section: "**Lab Materials**"
         contents:
-          - section: "Week 08"
+          - section: "Week 12"
             contents:
-              - href: labs/Week_08/name.ipynb  
+              - href: labs/Week_12/Continuous_Dist.ipynb  
       - section: "**History of Probability**"
         contents:    
           - href: history.qmd

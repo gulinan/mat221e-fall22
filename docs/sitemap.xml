@@ -1,39 +1,23 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://gulinan.github.io/mat221e-fall22/labs/lab_01.html</loc>
-    <lastmod>2022-11-23T14:06:44.362Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gulinan.github.io/mat221e-fall22/labs/notebook.html</loc>
-    <lastmod>2022-11-23T14:06:45.051Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gulinan.github.io/mat221e-fall22/labs/Week_08/Discrete_Dist.html</loc>
-    <lastmod>2022-11-23T14:06:45.783Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gulinan.github.io/mat221e-fall22/labs/Week_08/Random_Variables.html</loc>
-    <lastmod>2022-11-23T14:06:46.489Z</lastmod>
-  </url>
-  <url>
-    <loc>https://gulinan.github.io/mat221e-fall22/labs/Week_08/Expectation.html</loc>
-    <lastmod>2022-11-23T14:06:47.065Z</lastmod>
+    <loc>https://gulinan.github.io/mat221e-fall22/labs/Week_12/Continuous_Dist.html</loc>
+    <lastmod>2022-12-14T20:00:37.933Z</lastmod>
   </url>
   <url>
     <loc>https://gulinan.github.io/mat221e-fall22/index.html</loc>
-    <lastmod>2022-11-23T14:06:47.498Z</lastmod>
+    <lastmod>2022-12-14T20:00:38.547Z</lastmod>
   </url>
   <url>
     <loc>https://gulinan.github.io/mat221e-fall22/instructor.html</loc>
-    <lastmod>2022-11-23T14:06:47.893Z</lastmod>
+    <lastmod>2022-12-14T20:00:39.576Z</lastmod>
   </url>
   <url>
     <loc>https://gulinan.github.io/mat221e-fall22/syllabus.html</loc>
-    <lastmod>2022-11-23T14:06:48.488Z</lastmod>
+    <lastmod>2022-12-14T20:00:40.585Z</lastmod>
   </url>
   <url>
     <loc>https://gulinan.github.io/mat221e-fall22/history.html</loc>
-    <lastmod>2022-11-23T14:06:48.958Z</lastmod>
+    <lastmod>2022-12-14T20:00:41.226Z</lastmod>
   </url>
 </urlset>
