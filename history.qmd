@@ -32,10 +32,19 @@ Here I will collect some web notes on history of probability concepts and scient
 
 [![](images/randomvariable.png){fig-align="center" width="400"}](https://twitter.com/HOS_ASA/status/1590478240397021184)
 
-- [Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli):
+-   [Jacob Bernoulli](https://en.wikipedia.org/wiki/Jacob_Bernoulli):
 
 [![](images/bernoulli.png){fig-align="center" width="250"}](https://en.wikipedia.org/wiki/Jacob_Bernoulli)
 
-- [Siméon Denis Poisson](https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson):
+-   [Siméon Denis Poisson](https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson):
 
 [![](images/poisson.png){fig-align="center" width="250"}](https://en.wikipedia.org/wiki/Sim%C3%A9on_Denis_Poisson)
+
+-   [Abraham de Moivre](https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/):
+
+[![](images/abraham.png){fig-align="center" width="250"}](https://mathshistory.st-andrews.ac.uk/Biographies/De_Moivre/)
+
+
+-   [Carl Friedrich Gauss](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss):
+
+[![](images/gauss.png){fig-align="center" width="250"}](https://en.wikipedia.org/wiki/Carl_Friedrich_Gauss)
