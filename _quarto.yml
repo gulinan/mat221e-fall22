@@ -40,6 +40,9 @@ website:
           - section: "Week 12"
             contents:
               - href: labs/Week_12/Continuous_Dist.ipynb  
+          - section: "Week 13"
+            contents:
+              - href: labs/Week_13/Continuous_Dist.ipynb 
       - section: "**History of Probability**"
         contents:    
           - href: history.qmd
